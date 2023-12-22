@@ -1,0 +1,64 @@
+.logo img {
+    max-width: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    padding-right: 7em;
+    padding-left: 7em;
+}
+
+header > nav > ul {
+    display: flex;
+}
+header > nav > ul > li {
+    margin: 0 1em;
+}
+
+.hero {
+    background-color: #E1E1E1;
+    height: 1024px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-slogan {
+    position: absolute;
+    bottom: 25em;
+    left: 70em;
+}
+
+.hero-slogan h1 {
+    font-size: 5em;
+    font-weight: 900;
+}
+.btn{
+    color: rgb(155, 155, 155);
+    background-color: white;
+    padding: 1em 4em;
+    font-weight: 800;
+    position: absolute;
+    bottom: 15em;
+    left: 70em;
+    border-radius: 3em;
+}
+.pod img{
+    max-width: 1000px;
+    padding-left: 32em;
+    padding-top: 8em;
+ }
+
+.pod2 img {
+    position: absolute;
+    padding-left: 90em;
+    padding-bottom: 30em;
+}
